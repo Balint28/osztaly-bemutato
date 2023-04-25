@@ -353,3 +353,64 @@ section p {
 	background-color: #0DA9A9;	
 	color: white;
 	}
+
+
+/*Zsombor*/
+
+zsombor. {
+	background-color: #024000
+}
+
+
+.zsombortable th {
+	background-color: #024000;
+	padding: 10px;
+	text-align: left;
+}
+
+.zsombortable tr:nth-child(even) {
+  background-color: blue;
+}
+.zsombortable tr:nth-child(odd) {
+  background-color: #024000;
+}
+
+.zsombor section {
+	text-align: center;
+	background-color: #024000;
+	padding: 20px;
+	border-radius: 5px;
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.zsombor div {
+	background-color: #024000;
+	padding: 10px;
+	text-align: center;
+}
+
+.zsombortopnav {
+	background-color: #024000;
+	overflow: hidden;
+	width: 100%;
+}
+
+.zsombortopnav a {
+	float: left;
+	color: green;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.zsombortopnav a:hover {
+	background-color: #024000;
+	color: green;
+}
+
+.zsombortopnav a.active {
+	background-color: #024000;
+	color: green;
+}
